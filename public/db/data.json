@@ -1,0 +1,122 @@
+{
+  "packages": [
+    {
+      "packageId": 1,
+      "name": "Hotdesk",
+      "description": "A hotdesk package with 10 days",
+      "deskType": "flexi",
+      "concellationPeriod": 1,
+      "commitmentPeriod": 1,
+      "price": 30,
+      "mrCredits": 10,
+      "days": 10,
+      "sellLimit": 10
+    },
+    {
+      "packageId": 2,
+      "name": "Dedicated",
+      "description": "A dedicated package",
+      "deskType": "dedicated",
+      "concellationPeriod": 2,
+      "commitmentPeriod": 3,
+      "price": 150,
+      "mrCredits": 30,
+      "days": 0,
+      "sellLimit": null
+    },
+    {
+      "packageId": 3,
+      "name": "Office Desk",
+      "description": "An office desk package",
+      "deskType": "office",
+      "concellationPeriod": 3,
+      "commitmentPeriod": 3,
+      "price": 300,
+      "mrCredits": 50,
+      "days": 0,
+      "sellLimit": 10
+    },
+    {
+      "packageId": 4,
+      "name": "Unlimited",
+      "description": "An unlimited package",
+      "deskType": "unlimited",
+      "concellationPeriod": 1,
+      "commitmentPeriod": 1,
+      "price": 60,
+      "mrCredits": 10,
+      "days": 0,
+      "sellLimit": null
+    }
+  ],
+  "teams": [
+    {
+      "teamId": 1,
+      "team_name": "Team A"
+    },
+    {
+      "teamId": 2,
+      "team_name": "Team B"
+    },
+    {
+      "teamId": 3,
+      "team_name": "Team C"
+    },
+    {
+      "teamId": 4,
+      "team_name": "Team D"
+    },
+    {
+      "teamId": 5,
+      "team_name": "Team E"
+    },
+    {
+      "teamId": 6,
+      "team_name": "Team F"
+    }
+  ],
+  "teamPackages": [
+    {
+      "teamPackageId": 1,
+      "packageId": 1,
+      "teamId": 1,
+      "startDate": "2019-01-01",
+      "endDate": "2019-05-21"
+    },
+    {
+      "teamPackageId": 2,
+      "packageId": 2,
+      "teamId": 2,
+      "startDate": "2019-05-21",
+      "endDate": null
+    },
+    {
+      "teamPackageId": 3,
+      "packageId": 3,
+      "teamId": 3,
+      "startDate": "2018-05-06",
+      "endDate": "2019-06-30"
+    },
+    {
+      "teamPackageId": 4,
+      "packageId": 3,
+      "teamId": 2,
+      "startDate": "2019-01-05",
+      "endDate": null
+    },
+    {
+      "teamPackageId": 6,
+      "packageId": 4,
+      "teamId": 1,
+      "startDate": "2019-07-14",
+      "endDate": null
+    },
+    {
+      "teamPackageId": 7,
+      "packageId": 3,
+      "teamId": 5,
+      "startDate": "2019-08-03",
+      "endDate": null
+    }
+  ]
+}

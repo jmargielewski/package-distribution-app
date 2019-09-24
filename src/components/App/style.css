@@ -1,0 +1,20 @@
+.container {
+  margin-top: 50px;
+}
+
+.team--active {
+  border: 2px solid #2185d0 !important;
+}
+
+.team__header {
+  font-size: 1em !important;
+  line-height: 1em !important;
+}
+
+.team__meta {
+  font-size: 0.6em !important;
+}
+
+.team__button {
+  font-size: 0.8em !important;
+}
