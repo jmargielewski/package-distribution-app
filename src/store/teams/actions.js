@@ -16,7 +16,7 @@ const fetchTeamsFailure = (err) => ({
 export const fetchTeams = () => async (dispatch) => {
   dispatch({ type: FETCH_TEAMS_REQUEST });
   try {
-    const response = await axios.get('/db/data.json');
+    const response = await axios.get('https://api.myjson.com/bins/17bkkk');
     if (response.status === 200) {
       dispatch(fetchTeamsSuccess(response.data.teams));
     } else {

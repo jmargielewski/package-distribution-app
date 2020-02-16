@@ -20,7 +20,7 @@ const fetchPackagesFailure = (err) => ({
 export const fetchPackages = () => async (dispatch) => {
   dispatch({ type: FETCH_PACKAGES_REQUEST });
   try {
-    const response = await axios.get('/db/data.json');
+    const response = await axios.get('https://api.myjson.com/bins/17bkkk');
     if (response.status === 200) {
       dispatch(fetchPackagesSuccess(response.data.packages));
     } else {
