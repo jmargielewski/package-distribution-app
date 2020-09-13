@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/package-distribution-app/static/css/main.087e82f4.chunk.css",
-    "main.js": "/package-distribution-app/static/js/main.68ad959c.chunk.js",
-    "main.js.map": "/package-distribution-app/static/js/main.68ad959c.chunk.js.map",
+    "main.js": "/package-distribution-app/static/js/main.b07d1603.chunk.js",
+    "main.js.map": "/package-distribution-app/static/js/main.b07d1603.chunk.js.map",
     "runtime-main.js": "/package-distribution-app/static/js/runtime-main.f7996d89.js",
     "runtime-main.js.map": "/package-distribution-app/static/js/runtime-main.f7996d89.js.map",
-    "static/css/2.358d5e5c.chunk.css": "/package-distribution-app/static/css/2.358d5e5c.chunk.css",
-    "static/js/2.4eb36970.chunk.js": "/package-distribution-app/static/js/2.4eb36970.chunk.js",
-    "static/js/2.4eb36970.chunk.js.map": "/package-distribution-app/static/js/2.4eb36970.chunk.js.map",
+    "static/css/2.806c823c.chunk.css": "/package-distribution-app/static/css/2.806c823c.chunk.css",
+    "static/js/2.966ab962.chunk.js": "/package-distribution-app/static/js/2.966ab962.chunk.js",
+    "static/js/2.966ab962.chunk.js.map": "/package-distribution-app/static/js/2.966ab962.chunk.js.map",
     "index.html": "/package-distribution-app/index.html",
-    "precache-manifest.13c5ad5e7c0b05c93f5272ca5da33623.js": "/package-distribution-app/precache-manifest.13c5ad5e7c0b05c93f5272ca5da33623.js",
+    "precache-manifest.49de07d11db35b75536a6bf5ca28f9a4.js": "/package-distribution-app/precache-manifest.49de07d11db35b75536a6bf5ca28f9a4.js",
     "service-worker.js": "/package-distribution-app/service-worker.js",
-    "static/css/2.358d5e5c.chunk.css.map": "/package-distribution-app/static/css/2.358d5e5c.chunk.css.map",
+    "static/css/2.806c823c.chunk.css.map": "/package-distribution-app/static/css/2.806c823c.chunk.css.map",
     "static/css/main.087e82f4.chunk.css.map": "/package-distribution-app/static/css/main.087e82f4.chunk.css.map",
     "static/media/semantic.min.css": "/package-distribution-app/static/media/outline-icons.ef60a4f6.woff"
   }
