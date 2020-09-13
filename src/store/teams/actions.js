@@ -16,9 +16,9 @@ const fetchTeamsFailure = (err) => ({
 export const fetchTeams = () => async (dispatch) => {
   dispatch({ type: FETCH_TEAMS_REQUEST });
   try {
-    const response = await axios.get('/db/data.json');
+    const response = await axios.get('https://api.npoint.io/95ab3d0438d80733b06b/teams');
     if (response.status === 200) {
-      dispatch(fetchTeamsSuccess(response.data.teams));
+      dispatch(fetchTeamsSuccess(response.data));
     } else {
       // ignore for now
       console.error(`status: ${response.status}`);

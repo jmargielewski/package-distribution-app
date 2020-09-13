@@ -24,9 +24,11 @@ const fetchTeamPackagesFailure = (err) => ({
 export const fetchTeamPackages = () => async (dispatch) => {
   dispatch({ type: FETCH_TEAM_PACKAGES_REQUEST });
   try {
-    const response = await axios.get('/db/data.json');
+    const response = await axios.get(
+      'https://api.npoint.io/95ab3d0438d80733b06b/teamPackages',
+    );
     if (response.status === 200) {
-      dispatch(fetchTeamPackagesSuccess(response.data.teamPackages));
+      dispatch(fetchTeamPackagesSuccess(response.data));
     } else {
       // ignore for now
       console.error(`status: ${response.status}`);

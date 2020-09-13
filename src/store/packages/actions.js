@@ -20,14 +20,17 @@ const fetchPackagesFailure = (err) => ({
 export const fetchPackages = () => async (dispatch) => {
   dispatch({ type: FETCH_PACKAGES_REQUEST });
   try {
-    const response = await axios.get('/db/data.json');
+    const response = await axios.get(
+      'https://api.npoint.io/95ab3d0438d80733b06b/packages',
+    );
     if (response.status === 200) {
-      dispatch(fetchPackagesSuccess(response.data.packages));
+      dispatch(fetchPackagesSuccess(response.data));
     } else {
       // ignore for now
       console.error(`status: ${response.status}`);
     }
   } catch (err) {
+    console.log('response', err);
     dispatch(fetchPackagesFailure(err));
   }
 };
